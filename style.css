@@ -163,9 +163,9 @@ section {
 }
 
 .section5 .giants-and-sheep-character {
-    bottom: -13rem;
+    bottom: -3rem;
     width: 53rem;
-    left: -6.5rem;
+    left: 3.5rem;
     z-index: 1;
     animation-name: slide-right;
     animation-duration: 0.5s;
@@ -1452,7 +1452,7 @@ footer p a {
 
     .section5 .giants-and-sheep-character {
         bottom: auto;
-        top: 9vw;
+        top: 32vw;
         width: 84vw;
         left: -4vw;
     }
@@ -1474,6 +1474,7 @@ footer p a {
         width: 38vw;
         top: 105vw;
         right: 2vw;
+        z-index: 2;
     }
 
     .section5 .pocker-man-card-1 {
@@ -1490,8 +1491,8 @@ footer p a {
 
     .section5 .giants-and-sheep-logo {
         top: 91vw;
-        width: 20vw;
-        left: 18vw;
+        width: 30vw;
+        left: 13vw;
     }
 
     .section5 .promo1 {
