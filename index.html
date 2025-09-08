@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Clubs Poker | Premier Social Poker Site | Play Poker Online</title>
+    <meta name="description"
+        content="At Clubs Poker, with just a few clicks, you'll be able to play online poker with players across the US.">
+
+    <!-- Performance Optimizations -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Neden 2 tane -->
+    <link rel="preconnect" href="https://s2.adform.net" crossorigin>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./images/ClubsFavicon2-300x300.webp" type="image/webp">
+    <link rel="apple-touch-icon" href="./images/ClubsFavicon2-300x300.webp">
+
+    <!-- Fonts with display swap -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Saira:wght@400;500;600;700&display=swap"
+        rel="stylesheet" media="print" onload="this.media='all'" />
+
+    <!-- CSS with media query -->
+    <link rel="stylesheet" href="style.css" media="all">
+
+    <!-- Additional Meta Tags for SEO -->
+    <meta name="theme-color" content="#ffffff">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Clubs Poker | Premier Social Poker Site">
+    <meta property="og:description"
+        content="At Clubs Poker, with just a few clicks, you'll be able to play online poker with players across the US.">
+    <meta property="og:type" content="website">
+
+
+    <!-- Adform Tracking Code BEGIN -->
+    <script type="text/javascript" defer>
+        window._adftrack = Array.isArray(window._adftrack) ? window._adftrack : (window._adftrack ? [window._adftrack] : []);
+        window._adftrack.push({
+            HttpHost: 'a2.adform.net',
+            pm: 3561096,
+            divider: encodeURIComponent('|'),
+            pagename: encodeURIComponent('poker_lp'),
+            order: {
+                sales: '<insert value value here>',
+                orderid: '<insert order_id value here>',
+                sv1: '<insert player_id value here>'
+            }
+        });
+        (function () {
+            const s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = 'https://s2.adform.net/banners/scripts/st/trackpoint-async.js';
+            const x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+
+    <!-- Adform Tracking Code END -->
+
+    <script>
+        async function checkWebpSupport() {
+            try {
+
+                const webpData = 'data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=';
+                const blob = await fetch(webpData).then(r => r.blob());
+                return blob.type === 'image/webp';
+            } catch {
+                return false;
+            }
+        }
+
+        checkWebpSupport().then(isSupported => {
+            document.documentElement.classList.add(
+                isSupported ? 'webp-support' : 'webp-not-support'
+            );
+        });
+    </script>
+
+    <link rel="preload" as="image" href="./images/pocker-man-mobile.webp" type="image/webp" media="(max-width: 765px)"
+        fetchpriority="high">
+    <!-- Desktop için preload -->
+    <link rel="preload" as="image" href="./images/pocker-man.webp" type="image/webp" media="(min-width: 766px)"
+        fetchpriority="high">
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
+
+</head>
+<script>
+    function isWebPSupported() {
+        var elem = document.createElement('canvas');
+        return !!(elem.getContext && elem.getContext('2d').drawImage && elem.toDataURL('image/webp').indexOf('data:image/webp') === 0);
+    }
+    if (isWebPSupported()) {
+        document.addEventListener('DOMContentLoaded', function () {
+            document.body.classList.add('webp-support');
+        });
+    } else {
+        document.addEventListener('DOMContentLoaded', function () {
+            document.body.classList.add('webp-not-support');
+        });
+    }
+</script>
+
+<body>
+    <noscript>
+        <p style="margin:0;padding:0;border:0;">
+            <img src="https://a2.adform.net/Serving/TrackPoint/?pm=3561096&ADFPageName=poker_lp&ADFdivider=|" width="1"
+                height="1" alt="Adform Tracking" />
+        </p>
+    </noscript>
+    <div class="scroll-container">
+        <div class="modal-container" id="popupModal">
+            <div class="modal">
+                <img src="./images/plus.svg" alt="" class="modal-close-icon" id="closeModal">
+                <picture>
+                    <source type="image/webp" media="(max-width: 765px)" srcset="./images/modal-image-new.webp">
+                    <source type="image/png" media="(max-width: 765px)" srcset="./images/modal-image-new.png">
+                    <img loading="lazy" class="modal-image" src="./images/" alt="modal-image" draggable="false">
+                </picture>
+                <div class="cta-container cta-blue">
+                    <a href="" class="cta">Join Now</a>
+                </div>
+            </div>
+        </div>
+        <nav class="nav">
+            <img src="./images/clubs-poker-logo.svg" alt="" class="logo">
+        </nav>
+        <div class="stickyBottom" id="stickyBottom">
+            <picture>
+                <source type="image/webp" media="(max-width: 765px)" srcset="./images/sticky-offer.webp">
+                <source type="image/png" media="(max-width: 765px)" srcset="./images/sticky-offer.png">
+                <img loading="lazy" class="sticky-offer" src="./images/" alt="sticky-offer" draggable="false">
+            </picture>
+            <div class="cta-container cta-blue">
+                <a href="" class="cta">Join Now</a>
+            </div>
+        </div>
+        <main>
+            <section class="section1">
+                <h1>AT CLUBSPOKER, YOU CAN ENJOY ALL YOUR FAVORITE <br>
+                    CASINO-STYLE GAMES <b>FOR FREE!</b>
+                </h1>
+                <div class="imgBox">
+                    <!-- <picture>
+                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/frame1.webp">
+                        <source type="image/png" media="(min-width: 765px)" srcset="./images/frame1.png">
+                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/frame1.webp">
+                        <source type="image/png" media="(max-width: 765px)" srcset="./images/frame1.png">
+                        <img loading="lazy" class="frame1 frame" src="./images/" alt="card" draggable="false">
+                    </picture>
+                    <picture>
+                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/frame2.webp">
+                        <source type="image/png" media="(min-width: 765px)" srcset="./images/frame2.png">
+                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/frame2.webp">
+                        <source type="image/png" media="(max-width: 765px)" srcset="./images/frame2.png">
+                        <img loading="lazy" class="frame2 frame" src="./images/" alt="card" draggable="false">
+                    </picture>
+                    <picture>
+                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/frame3.webp">
+                        <source type="image/png" media="(min-width: 765px)" srcset="./images/frame3.png">
+                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/frame3.webp">
+                        <source type="image/png" media="(max-width: 765px)" srcset="./images/frame3.png">
+                        <img loading="lazy" class="frame3 frame" src="./images/" alt="card" draggable="false">
+                    </picture> -->
+                    <picture>
+                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/extra_text.webp">
+                        <source type="image/png" media="(min-width: 765px)" srcset="./images/extra_text.png">
+                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/extra_text.webp">
+                        <source type="image/png" media="(max-width: 765px)" srcset="./images/extra_text.png">
+                        <img loading="lazy" class="frame2 frame" src="./images/" alt="card" draggable="false">
+                    </picture>
+                    <picture>
+                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/200k-gold-sc40free.webp">
+                        <source type="image/png" media="(min-width: 765px)" srcset="./images/200k-gold-sc40free.png">
+                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/200k-gold-sc40free.webp">
+                        <source type="image/png" media="(max-width: 765px)" srcset="./images/200k-gold-sc40free.png">
+                        <img loading="lazy" class="frame3 frame" src="./images/" alt="card" draggable="false">
+                    </picture>
+                    <div class="cta-container cta-yellow cta4">
+                        <a href="" class="cta">Get Started</a>
+                    </div>
+                    <dotlottie-player autoplay loop mode="normal" src="./giants-and-sheep.lottie"
+                        class="giants-and-sheep-anim"></dotlottie-player>
+
+                </div>
+                <!-- <dotlottie-player autoplay loop mode="normal" src="./bats.lottie" class="birds"></dotlottie-player> -->
+            </section>
+            <section class="section2">
+                <div class="container">
+                    <dotlottie-player autoplay loop mode="normal" src="./char.lottie"
+                    class="necromacer"></dotlottie-player>
+                    <div class="textCont">
+                        <h1>Enjoy over <b>200</b> thrilling <br>
+                            social casino games!</h1>
+                        <div class="cta-container cta-yellow">
+                            <a href="" class="cta">Play For Free!</a>
+                        </div>
+                    </div>
+                    <div class="sliderContainer">
+                        <div class="slider">
+                            <div class="slides" id="slides">
+    
+                                <div class="slide-card">
+                                    <picture>
+                                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/sweet-bonanza.webp">
+                                        <source type="image/png" media="(min-width: 765px)" srcset="./images/sweet-bonanza.png">
+                                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/sweet-bonanza.webp">
+                                        <source type="image/png" media="(max-width: 765px)" srcset="./images/sweet-bonanza.png">
+                                        <img loading="lazy" class="slide" src="./images/" alt="sweet-bonanza" draggable="false">
+                                    </picture>
+                                </div>
+                                <div class="slide-card">
+                                    <picture>
+                                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/rip-city.webp">
+                                        <source type="image/png" media="(min-width: 765px)" srcset="./images/rip-city.png">
+                                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/rip-city.webp">
+                                        <source type="image/png" media="(max-width: 765px)" srcset="./images/rip-city.png">
+                                        <img loading="lazy" class="slide" src="./images/" alt="rip-city" draggable="false">
+                                    </picture>
+                                </div>
+                                <div class="slide-card">
+                                    <picture>
+                                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/money-train.webp">
+                                        <source type="image/png" media="(min-width: 765px)" srcset="./images/money-train.png">
+                                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/money-train.webp">
+                                        <source type="image/png" media="(max-width: 765px)" srcset="./images/money-train.png">
+                                        <img loading="lazy" class="slide" src="./images/" alt="money-train" draggable="false">
+                                    </picture>
+                                </div>
+                                <div class="slide-card">
+                                    <picture>
+                                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/big-bass-bonanza.webp">
+                                        <source type="image/png" media="(min-width: 765px)" srcset="./images/big-bass-bonanza.png">
+                                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/big-bass-bonanza.webp">
+                                        <source type="image/png" media="(max-width: 765px)" srcset="./images/big-bass-bonanza.png">
+                                        <img loading="lazy" class="slide" src="./images/" alt="big-bass-bonanza" draggable="false">
+                                    </picture>
+                                </div>
+                                <div class="slide-card">
+                                    <picture>
+                                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/jokers-split.webp">
+                                        <source type="image/png" media="(min-width: 765px)" srcset="./images/jokers-split.png">
+                                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/jokers-split.webp">
+                                        <source type="image/png" media="(max-width: 765px)" srcset="./images/jokers-split.png">
+                                        <img loading="lazy" class="slide" src="./images/" alt="jokers-split" draggable="false">
+                                    </picture>
+                                </div>
+                                <div class="slide-card">
+                                    <picture>
+                                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/le-bandit.webp">
+                                        <source type="image/png" media="(min-width: 765px)" srcset="./images/le-bandit.png">
+                                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/le-bandit.webp">
+                                        <source type="image/png" media="(max-width: 765px)" srcset="./images/le-bandit.png">
+                                        <img loading="lazy" class="slide" src="./images/" alt="le-bandit" draggable="false">
+                                    </picture>
+                                </div>
+                               
+                                <div class="slide-card">
+                                    <picture>
+                                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/5-wild-buffalo.webp">
+                                        <source type="image/png" media="(min-width: 765px)" srcset="./images/5-wild-buffalo.png">
+                                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/5-wild-buffalo.webp">
+                                        <source type="image/png" media="(max-width: 765px)" srcset="./images/5-wild-buffalo.png">
+                                        <img loading="lazy" class="slide" src="./images/" alt="5-wild-buffalo" draggable="false">
+                                    </picture>
+                                </div>
+                                <div class="slide-card">
+                                    <picture>
+                                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/sugar-rush.webp">
+                                        <source type="image/png" media="(min-width: 765px)" srcset="./images/sugar-rush.png">
+                                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/sugar-rush.webp">
+                                        <source type="image/png" media="(max-width: 765px)" srcset="./images/sugar-rush.png">
+                                        <img loading="lazy" class="slide" src="./images/" alt="sugar-rush" draggable="false">
+                                    </picture>
+                                </div>
+                                <div class="slide-card">
+                                    <picture>
+                                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/ze-zeus.webp">
+                                        <source type="image/png" media="(min-width: 765px)" srcset="./images/ze-zeus.png">
+                                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/ze-zeus.webp">
+                                        <source type="image/png" media="(max-width: 765px)" srcset="./images/ze-zeus.png">
+                                        <img loading="lazy" class="slide" src="./images/" alt="ze-zeus" draggable="false">
+                                    </picture>
+                                </div>
+                                <div class="slide-card">
+                                    <picture>
+                                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/gates-of-olympus.webp">
+                                        <source type="image/png" media="(min-width: 765px)" srcset="./images/gates-of-olympus.png">
+                                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/gates-of-olympus.webp">
+                                        <source type="image/png" media="(max-width: 765px)" srcset="./images/gates-of-olympus.png">
+                                        <img loading="lazy" class="slide" src="./images/" alt="gates-of-olympus" draggable="false">
+                                    </picture>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <a class="prev" onclick="changeSlide(-1)"><svg width="19" height="31" viewBox="0 0 19 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.2419 2.16895L3.00011 15.4108L16.2419 28.6526" stroke="#EFB600" stroke-width="4.22083" stroke-linecap="round"/>
+                            </svg>                            
+                            </a>
+                        <a class="next" onclick="changeSlide(1)"><svg width="19" height="31" viewBox="0 0 19 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.7583 28.6526L16.0001 15.4108L2.7583 2.16893" stroke="#EFB600" stroke-width="4.22083" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                
+                </div>
+
+            </section>
+            <section class="section3">
+                <div class="container">
+                    <h1>ALWAYS FREE</h1>
+                    <h2>Choose your category and dive right in!</h2>
+                    <div class="iconBoxContainer">
+                        <div class="iconBox">
+                            <picture>
+                                <source type="image/webp" media="(min-width: 765px)" srcset="./images/slot-icon.webp">
+                                <source type="image/png" media="(min-width: 765px)" srcset="./images/slot-icon.png">
+                                <source type="image/webp" media="(max-width: 765px)" srcset="./images/slot-icon.webp">
+                                <source type="image/png" media="(max-width: 765px)" srcset="./images/slot-icon.png">
+                                <img loading="lazy" class="slot-icon" src="./images/" alt="slot-icon" draggable="false">
+                            </picture>
+                            <h4>SLOT</h4>
+                        </div>
+                        <div class="iconBox">
+                            <picture>
+                                <source type="image/webp" media="(min-width: 765px)" srcset="./images/megaways-icon.webp">
+                                <source type="image/png" media="(min-width: 765px)" srcset="./images/megaways-icon.png">
+                                <source type="image/webp" media="(max-width: 765px)" srcset="./images/megaways-icon.webp">
+                                <source type="image/png" media="(max-width: 765px)" srcset="./images/megaways-icon.png">
+                                <img loading="lazy" class="megaways-icon" src="./images/" alt="megaways-icon" draggable="false">
+                            </picture>
+                            <h4>MEGAWAYS</h4>
+                        </div>
+                        <div class="iconBox">
+                            <picture>
+                                <source type="image/webp" media="(min-width: 765px)" srcset="./images/bonus-buys-icon.webp">
+                                <source type="image/png" media="(min-width: 765px)" srcset="./images/bonus-buys-icon.png">
+                                <source type="image/webp" media="(max-width: 765px)" srcset="./images/bonus-buys-icon.webp">
+                                <source type="image/png" media="(max-width: 765px)" srcset="./images/bonus-buys-icon.png">
+                                <img loading="lazy" class="bonus-buys-icon" src="./images/" alt="bonus-buys-icon" draggable="false">
+                            </picture>
+                            <h4>bonus <br>
+                                buys</h4>
+                        </div>
+                        <div class="iconBox">
+                            <picture>
+                                <source type="image/webp" media="(min-width: 765px)" srcset="./images/holdin-spin-icon.webp">
+                                <source type="image/png" media="(min-width: 765px)" srcset="./images/holdin-spin-icon.png">
+                                <source type="image/webp" media="(max-width: 765px)" srcset="./images/holdin-spin-icon.webp">
+                                <source type="image/png" media="(max-width: 765px)" srcset="./images/holdin-spin-icon.png">
+                                <img loading="lazy" class="holdin-spin-icon" src="./images/" alt="holdin-spin-icon" draggable="false">
+                            </picture>
+                            <h4>HOLD’N <br>
+                                SPIN</h4>
+                        </div>
+                        <div class="iconBox">
+                            <picture>
+                                <source type="image/webp" media="(min-width: 765px)" srcset="./images/card-icon.webp">
+                                <source type="image/png" media="(min-width: 765px)" srcset="./images/card-icon.png">
+                                <source type="image/webp" media="(max-width: 765px)" srcset="./images/card-icon.webp">
+                                <source type="image/png" media="(max-width: 765px)" srcset="./images/card-icon.png">
+                                <img loading="lazy" class="card-icon" src="./images/" alt="card-icon" draggable="false">
+                            </picture>
+                            <h4>CARD</h4>
+                        </div>
+                        <div class="iconBox">
+                            <picture>
+                                <source type="image/webp" media="(min-width: 765px)" srcset="./images/more-icon.webp">
+                                <source type="image/png" media="(min-width: 765px)" srcset="./images/more-icon.png">
+                                <source type="image/webp" media="(max-width: 765px)" srcset="./images/more-icon.webp">
+                                <source type="image/png" media="(max-width: 765px)" srcset="./images/more-icon.png">
+                                <img loading="lazy" class="more-icon" src="./images/" alt="more-icon" draggable="false">
+                            </picture>
+                            <h4>MORE</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section4">
+                <div class="container">
+                    <div class="imgBox">
+                        <dotlottie-player autoplay loop mode="normal" src="./slot.lottie" class="slot-machine"></dotlottie-player>
+                         <picture>
+                            <source type="image/webp" media="(min-width: 765px)" srcset="./images/zeus.webp">
+                            <source type="image/png" media="(min-width: 765px)" srcset="./images/zeus.png">
+                            <source type="image/webp" media="(max-width: 765px)" srcset="./images/zeus.webp">
+                            <source type="image/png" media="(max-width: 765px)" srcset="./images/zeus.png">
+                            <img loading="lazy" class="zeus" src="./images/" alt="zeus" draggable="false">
+                        </picture>
+                        <picture>
+                            <source type="image/webp" media="(min-width: 765px)" srcset="./images/zeus-shine.webp">
+                            <source type="image/png" media="(min-width: 765px)" srcset="./images/zeus-shine.png">
+                            <source type="image/webp" media="(max-width: 765px)" srcset="./images/zeus-shine.webp">
+                            <source type="image/png" media="(max-width: 765px)" srcset="./images/zeus-shine.png">
+                            <img loading="lazy" class="zeus-shine" src="./images/" alt="zeus-shine" draggable="false">
+                        </picture>
+                        <picture>
+                            <source type="image/webp" media="(min-width: 765px)" srcset="./images/arena.webp">
+                            <source type="image/png" media="(min-width: 765px)" srcset="./images/arena.png">
+                            <source type="image/webp" media="(max-width: 765px)" srcset="./images/arena.webp">
+                            <source type="image/png" media="(max-width: 765px)" srcset="./images/arena.png">
+                            <img loading="lazy" class="arena" src="./images/" alt="arena" draggable="false">
+                        </picture>
+                        <picture>
+                            <source type="image/webp" media="(min-width: 765px)" srcset="./images/beast.webp">
+                            <source type="image/png" media="(min-width: 765px)" srcset="./images/beast.png">
+                            <source type="image/webp" media="(max-width: 765px)" srcset="./images/beast.webp">
+                            <source type="image/png" media="(max-width: 765px)" srcset="./images/beast.png">
+                            <img loading="lazy" class="beast" src="./images/" alt="beast" draggable="false">
+                        </picture>
+                        <picture>
+                            <source type="image/webp" media="(min-width: 765px)" srcset="./images/hammer.webp">
+                            <source type="image/png" media="(min-width: 765px)" srcset="./images/hammer.png">
+                            <source type="image/webp" media="(max-width: 765px)" srcset="./images/hammer.webp">
+                            <source type="image/png" media="(max-width: 765px)" srcset="./images/hammer.png">
+                            <img loading="lazy" class="hammer" src="./images/" alt="hammer" draggable="false">
+                        </picture>
+                        <picture>
+                            <source type="image/webp" media="(min-width: 765px)" srcset="./images/hammer2.webp">
+                            <source type="image/png" media="(min-width: 765px)" srcset="./images/hammer2.png">
+                            <source type="image/webp" media="(max-width: 765px)" srcset="./images/hammer2.webp">
+                            <source type="image/png" media="(max-width: 765px)" srcset="./images/hammer2.png">
+                            <img loading="lazy" class="hammer2" src="./images/" alt="hammer" draggable="false">
+                        </picture>
+                        <picture>
+                            <source type="image/webp" media="(min-width: 765px)" srcset="./images/promo3.webp">
+                            <source type="image/png" media="(min-width: 765px)" srcset="./images/promo3.png">
+                            <source type="image/webp" media="(max-width: 765px)" srcset="./images/promo3.webp">
+                            <source type="image/png" media="(max-width: 765px)" srcset="./images/promo3.png">
+                            <img loading="lazy" class="promo3" src="./images/" alt="promo3" draggable="false">
+                        </picture>
+                        <div class="cta-container cta-yellow">
+                            <a href="" class="cta">Sign Up Now!</a>
+                        </div> 
+                    </div>
+                    <div class="paymentsCont">
+                        <picture>
+                            <source type="image/webp" media="(min-width: 765px)" srcset="./images/pragmatic-play.webp">
+                            <source type="image/png" media="(min-width: 765px)" srcset="./images/pragmatic-play.png">
+                            <source type="image/webp" media="(max-width: 765px)" srcset="./images/pragmatic-play.webp">
+                            <source type="image/png" media="(max-width: 765px)" srcset="./images/pragmatic-play.png">
+                            <img loading="lazy" class="pragmatic-play" src="./images/" alt="pragmatic-play" draggable="false">
+                        </picture>
+                        <picture>
+                            <source type="image/webp" media="(min-width: 765px)" srcset="./images/relax.webp">
+                            <source type="image/png" media="(min-width: 765px)" srcset="./images/relax.png">
+                            <source type="image/webp" media="(max-width: 765px)" srcset="./images/relax.webp">
+                            <source type="image/png" media="(max-width: 765px)" srcset="./images/relax.png">
+                            <img loading="lazy" class="relax" src="./images/" alt="relax" draggable="false">
+                        </picture>
+                        <picture>
+                            <source type="image/webp" media="(min-width: 765px)" srcset="./images/hacksaw.webp">
+                            <source type="image/png" media="(min-width: 765px)" srcset="./images/hacksaw.png">
+                            <source type="image/webp" media="(max-width: 765px)" srcset="./images/hacksaw.webp">
+                            <source type="image/png" media="(max-width: 765px)" srcset="./images/hacksaw.png">
+                            <img loading="lazy" class="hacksaw" src="./images/" alt="hacksaw" draggable="false">
+                        </picture>
+                    </div>
+                </div>
+            </section>
+            <section class="section5">
+                <div class="imgBox">
+
+                    <picture>
+                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/zombie-light.webp">
+                        <source type="image/png" media="(min-width: 765px)" srcset="./images/zombie-light.png">
+                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/zombie-light.webp">
+                        <source type="image/png" media="(max-width: 765px)" srcset="./images/zombie-light.png">
+                        <img loading="lazy" class="zombie-light" src="./images/" alt="zombie-light" draggable="false">
+                    </picture>
+                    <picture>
+                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/giants-and-sheep-character.webp">
+                        <source type="image/png" media="(min-width: 765px)" srcset="./images/giants-and-sheep-character.png">
+                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/giants-and-sheep-character-mobile.webp">
+                        <source type="image/png" media="(max-width: 765px)" srcset="./images/giants-and-sheep-character-mobile.png">
+                        <img loading="lazy" class="giants-and-sheep-character" src="./images/" alt="giants-and-sheep-character" draggable="false">
+                    </picture>
+                    <picture>
+                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/giants-and-sheep-logo.webp">
+                        <source type="image/png" media="(min-width: 765px)" srcset="./images/giants-and-sheep-logo.png">
+                        <source type="image/webp" media="(max-width: 765px)"
+                            srcset="./images/giants-and-sheep-logo-mobile.webp">
+                        <source type="image/png" media="(max-width: 765px)"
+                            srcset="./images/giants-and-sheep-logo-mobile.png">
+                        <img loading="lazy" class="giants-and-sheep-logo" src="./images/" alt="giants-and-sheep-logo"
+                            draggable="false">
+                    </picture>
+                    <picture>
+                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/promo1.webp">
+                        <source type="image/png" media="(min-width: 765px)" srcset="./images/promo1.png">
+                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/promo1-mobile.webp">
+                        <source type="image/png" media="(max-width: 765px)" srcset="./images/promo1-mobile.png">
+                        <img loading="lazy" class="promo1" src="./images/" alt="promo1" draggable="false">
+                    </picture>
+                    <!-- <div class="cta-container cta-yellow cta1">
+                    <a href="" class="cta">Sign Up Now!</a>
+                </div> -->
+                    <picture>
+                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/pocker-man-light.webp">
+                        <source type="image/png" media="(min-width: 765px)" srcset="./images/pocker-man-light.png">
+                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/pocker-man-light.webp">
+                        <source type="image/png" media="(max-width: 765px)" srcset="./images/pocker-man-light.png">
+                        <img loading="lazy" class="pocker-man-light" src="./images/" alt="pocker-man-light"
+                            draggable="false">
+                    </picture>
+                    <picture>
+                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/pocker-man.webp">
+                        <source type="image/png" media="(min-width: 765px)" srcset="./images/pocker-man.png">
+                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/pocker-man-mobile.webp">
+                        <source type="image/png" media="(max-width: 765px)" srcset="./images/pocker-man-mobile.png">
+                        <img loading="lazy" class="pocker-man" src="./images/" alt="pocker-man" draggable="false">
+                    </picture>
+                    <picture>
+                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/pocker-man-card-1.webp">
+                        <source type="image/png" media="(min-width: 765px)" srcset="./images/pocker-man-card-1.png">
+                        <source type="image/webp" media="(max-width: 765px)"
+                            srcset="./images/pocker-man-card-1-mobile.webp">
+                        <source type="image/png" media="(max-width: 765px)"
+                            srcset="./images/pocker-man-card-1-mobile.png">
+                        <img loading="lazy" class="pocker-man-card-1" src="./images/" alt="pocker-man-card-1"
+                            draggable="false">
+                    </picture>
+                    <picture>
+                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/pocker-man-card-2.webp">
+                        <source type="image/png" media="(min-width: 765px)" srcset="./images/pocker-man-card-2.png">
+                        <source type="image/webp" media="(max-width: 765px)"
+                            srcset="./images/pocker-man-card-2-mobile.webp">
+                        <source type="image/png" media="(max-width: 765px)"
+                            srcset="./images/pocker-man-card-2-mobile.png">
+                        <img loading="lazy" class="pocker-man-card-2" src="./images/" alt="pocker-man-card-2"
+                            draggable="false">
+                    </picture>
+                    <picture>
+                        <source type="image/webp" media="(min-width: 765px)" srcset="./images/promo2.webp">
+                        <source type="image/png" media="(min-width: 765px)" srcset="./images/promo2.png">
+                        <source type="image/webp" media="(max-width: 765px)" srcset="./images/promo2-mobile.webp">
+                        <source type="image/png" media="(max-width: 765px)" srcset="./images/promo2-mobile.png">
+                        <img loading="lazy" class="promo2" src="./images/" alt="promo2" draggable="false">
+                    </picture>
+                    <div class="cta-container cta-blue cta2">
+                        <a href="" class="cta">Join Now</a>
+                    </div>
+                </div>
+
+            </section>
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-top">
+                        <div class="left-side">
+                            <img src="./images/clubs-poker-logo.svg" alt="" class="logo">
+                            <p>© 2024 All Rights Reserved</p>
+                            <div class="social-medias">
+                                <a href="https://twitter.com/playonclubs" class="wp-block-social-link-anchor"><svg
+                                        width="24" height="24" viewBox="0 0 24 24" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                                        <path
+                                            d="M13.982 10.622 20.54 3h-1.554l-5.693 6.618L8.745 3H3.5l6.876 10.007L3.5 21h1.554l6.012-6.989L15.868 21h5.245l-7.131-10.378Zm-2.128 2.474-.697-.997-5.543-7.93H8l4.474 6.4.697.996 5.815 8.318h-2.387l-4.745-6.787Z">
+                                        </path>
+                                    </svg></a>
+                                <a href="https://instagram.com/clubspoker" class="wp-block-social-link-anchor"><svg
+                                        width="24" height="24" viewBox="0 0 24 24" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                                        <path
+                                            d="M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z">
+                                        </path>
+                                    </svg></a>
+                                <a href="https://facebook.com/playonclubs" class="wp-block-social-link-anchor"><svg
+                                        width="24" height="24" viewBox="0 0 24 24" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                                        <path
+                                            d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z">
+                                        </path>
+                                    </svg></a>
+                                <a href="https://tiktok.com/@playonclubs" class="wp-block-social-link-anchor"><svg
+                                        width="24" height="24" viewBox="0 0 32 32" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                                        <path
+                                            d="M16.708 0.027c1.745-0.027 3.48-0.011 5.213-0.027 0.105 2.041 0.839 4.12 2.333 5.563 1.491 1.479 3.6 2.156 5.652 2.385v5.369c-1.923-0.063-3.855-0.463-5.6-1.291-0.76-0.344-1.468-0.787-2.161-1.24-0.009 3.896 0.016 7.787-0.025 11.667-0.104 1.864-0.719 3.719-1.803 5.255-1.744 2.557-4.771 4.224-7.88 4.276-1.907 0.109-3.812-0.411-5.437-1.369-2.693-1.588-4.588-4.495-4.864-7.615-0.032-0.667-0.043-1.333-0.016-1.984 0.24-2.537 1.495-4.964 3.443-6.615 2.208-1.923 5.301-2.839 8.197-2.297 0.027 1.975-0.052 3.948-0.052 5.923-1.323-0.428-2.869-0.308-4.025 0.495-0.844 0.547-1.485 1.385-1.819 2.333-0.276 0.676-0.197 1.427-0.181 2.145 0.317 2.188 2.421 4.027 4.667 3.828 1.489-0.016 2.916-0.88 3.692-2.145 0.251-0.443 0.532-0.896 0.547-1.417 0.131-2.385 0.079-4.76 0.095-7.145 0.011-5.375-0.016-10.735 0.025-16.093z">
+                                        </path>
+                                    </svg></a>
+                                <a href="https://youtube.com/@ClubsPoker" class="wp-block-social-link-anchor"><svg
+                                        width="24" height="24" viewBox="0 0 24 24" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                                        <path
+                                            d="M21.8,8.001c0,0-0.195-1.378-0.795-1.985c-0.76-0.797-1.613-0.801-2.004-0.847c-2.799-0.202-6.997-0.202-6.997-0.202 h-0.009c0,0-4.198,0-6.997,0.202C4.608,5.216,3.756,5.22,2.995,6.016C2.395,6.623,2.2,8.001,2.2,8.001S2,9.62,2,11.238v1.517 c0,1.618,0.2,3.237,0.2,3.237s0.195,1.378,0.795,1.985c0.761,0.797,1.76,0.771,2.205,0.855c1.6,0.153,6.8,0.201,6.8,0.201 s4.203-0.006,7.001-0.209c0.391-0.047,1.243-0.051,2.004-0.847c0.6-0.607,0.795-1.985,0.795-1.985s0.2-1.618,0.2-3.237v-1.517 C22,9.62,21.8,8.001,21.8,8.001z M9.935,14.594l-0.001-5.62l5.404,2.82L9.935,14.594z">
+                                        </path>
+                                    </svg></a>
+                            </div>
+                            <div class="logo-cont">
+                                <picture>
+                                    <source type="image/webp" media="(min-width: 765px)" srcset="./images/18logo.webp">
+                                    <source type="image/png" media="(min-width: 765px)" srcset="./images/18logo.png">
+                                    <source type="image/webp" media="(max-width: 765px)" srcset="./images/18logo.webp">
+                                    <source type="image/png" media="(max-width: 765px)" srcset="./images/18logo.png">
+                                    <img loading="lazy" class="18logo" src="./images/" alt="card" draggable="false">
+                                </picture>
+                                <picture>
+                                    <source type="image/webp" media="(min-width: 765px)"
+                                        srcset="./images/GamingLabsCertified.webp">
+                                    <source type="image/png" media="(min-width: 765px)"
+                                        srcset="./images/GamingLabsCertified.png">
+                                    <source type="image/webp" media="(max-width: 765px)"
+                                        srcset="./images/GamingLabsCertified.webp">
+                                    <source type="image/png" media="(max-width: 765px)"
+                                        srcset="./images/GamingLabsCertified.png">
+                                    <img loading="lazy" class="GamingLabsCertified" src="./images/" alt="card"
+                                        draggable="false">
+                                </picture>
+
+                            </div>
+                            <p class="pokerfuse-text">As featured on PokerFuse</p>
+                            <picture>
+                                <source type="image/webp" media="(min-width: 765px)"
+                                    srcset="./images/pokerfuse-logo.webp">
+                                <source type="image/png" media="(min-width: 765px)"
+                                    srcset="./images/pokerfuse-logo.png">
+                                <source type="image/webp" media="(max-width: 765px)"
+                                    srcset="./images/pokerfuse-logo.webp">
+                                <source type="image/png" media="(max-width: 765px)"
+                                    srcset="./images/pokerfuse-logo.png">
+                                <img loading="lazy" class="pokerfuse-logo" src="./images/" alt="card" draggable="false">
+                            </picture>
+                        </div>
+                        <div class="right-side">
+                            <div>
+                                <h1>about</h1>
+                                <a href="https://clubspoker.com/about/">About us</a>
+                                <a href="https://clubspoker.zendesk.com/hc/en-us/requests/new">Contact Us</a>
+                                <a href="mailto:partners@clubspoker.com">Clubs Poker Partners</a>
+                                <a href="https://clubspoker.com/responsible-gameplay/">Responsible Gameplay</a>
+                                <a href="https://clubspoker.zendesk.com/hc/en-us">FAQ</a>
+                            </div>
+                            <div>
+                                <h1>legal</h1>
+                                <a href="https://clubspoker.com/terms/">Terms Of Use</a>
+                                <a href="https://clubspoker.com/privacy-policy/">Privacy Policy</a>
+                                <a href="https://clubspoker.com/customer-acceptance/">Customer Acceptance Policy</a>
+                                <a href="https://clubspoker.com/sweepstakes-rules/">Sweepstakes Rules</a>
+                            </div>
+                            <div>
+                                <h1>policies</h1>
+                                <a href="https://clubspoker.com/card-room-rules/">Card Room Rules</a>
+                                <a href="https://clubspoker.com/ring-game-rules/">Ring Game Rules</a>
+                                <a href="https://clubspoker.com/tournament-rules/">Tournament Rules</a>
+                                <a href="https://clubspoker.com/tournament-cancellation/">Tournament Cancellation</a>
+                                <a href="https://clubspoker.com/learn/rake-details/">Rake Details</a>
+                                <a href="https://clubspoker.com/casino-rtp/">Casino RTP</a>
+                                <a href="https://clubspoker.com/spin-go/">Spin &amp; Go Prize Table</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>Copyright © Clubs Poker 2024. All rights reserved. ClubsPoker.com is owned and operated by
+                            KHK Games, Inc. The registered address of KHK Games is 2001 Market St. Suite 2500,
+                            Philadelphia, PA 19103. </p>
+                        <p>NO PURCHASE NECESSARY to enter Sweepstakes.&nbsp; VOID WHERE PROHIBITED BY LAW.&nbsp; For
+                            more details, please visit our&nbsp;<a href="https://clubspoker.com/terms/" data-type="page"
+                                data-id="191">Terms of Use</a>.&nbsp;Official&nbsp;Sweeps Rules&nbsp;apply.&nbsp;</p>
+                        <p>Persons under the age of 18 are not permitted to create accounts and/or participate in any
+                            games on Clubs Poker.</p>
+                        <p>Please play responsibly.&nbsp; For responsible gameplay support, please visit the&nbsp;<a
+                                href="https://clubspoker.com/responsible-gameplay/" data-type="page"
+                                data-id="202">Responsible Gameplay</a>&nbsp;section of our website and <a
+                                href="https://www.gamingaddictsanonymous.org/">Gaming Addicts Anonymous</a>.</p>
+                    </div>
+                </div>
+
+            </footer>
+        </main>
+    </div>
+    <!-- Loader -->
+    <div class="loader" aria-hidden="true" role="progressbar" aria-label="Page loading">
+        <div id="lottie-container"></div>
+    </div>
+
+    <script src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
