@@ -34,10 +34,13 @@ body {
     z-index: 99999;
     background-color: #121512
 }
+
 #lottie-container {
     width: 100%;
-    height: 200px; /* or whatever size you need */
+    height: 200px;
+    /* or whatever size you need */
 }
+
 /* .loader::before {
     content: "";
     position: static;
@@ -209,7 +212,7 @@ section {
 }
 
 .section5 .giants-and-sheep-logo {
-    top: 17rem;
+    top: 21rem;
     width: 12rem;
     left: -2.5rem;
     z-index: 1;
@@ -585,13 +588,15 @@ section {
     align-items: center;
     height: 31rem;
 }
-.section3 .container{
+
+.section3 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.section3 h1{
+
+.section3 h1 {
     color: #222121;
     text-align: center;
     font-size: 2.6rem;
@@ -608,17 +613,21 @@ section {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
 @keyframes bgcolor-anim {
-    0%{
+    0% {
         background-color: #EFB600;
     }
-    50%{
+
+    50% {
         background-color: #fff;
     }
-    100%{
+
+    100% {
         background-color: #EFB600;
     }
 }
+
 .section3 h2 {
     color: #FFF;
     text-align: center;
@@ -671,30 +680,38 @@ section {
     cursor: pointer;
     transition: all 0.5s;
 }
-.iconBoxContainer .iconBox:hover{
+
+.iconBoxContainer .iconBox:hover {
     border-radius: 10px;
     border: 1px solid rgba(255, 199, 0, 0.50);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
     box-shadow: 0px 10px 4px 0px #000 inset;
 }
-.iconBoxContainer .iconBox:nth-child(1) img{
+
+.iconBoxContainer .iconBox:nth-child(1) img {
     height: 6.4rem;
 }
-.iconBoxContainer .iconBox:nth-child(2) img{
+
+.iconBoxContainer .iconBox:nth-child(2) img {
     height: 5.5rem;
 }
-.iconBoxContainer .iconBox:nth-child(3) img{
+
+.iconBoxContainer .iconBox:nth-child(3) img {
     height: 6.8rem;
 }
-.iconBoxContainer .iconBox:nth-child(4) img{
+
+.iconBoxContainer .iconBox:nth-child(4) img {
     height: 6.8rem;
 }
-.iconBoxContainer .iconBox:nth-child(5) img{
+
+.iconBoxContainer .iconBox:nth-child(5) img {
     height: 6.2rem;
 }
-.iconBoxContainer .iconBox:nth-child(6) img{
+
+.iconBoxContainer .iconBox:nth-child(6) img {
     height: 4.8rem;
 }
+
 .iconBoxContainer .iconBox.icon-anim {
     animation-name: icon-anim;
     animation-duration: 1s;
@@ -728,9 +745,11 @@ section {
 .iconBoxContainer .iconBox:nth-child(5) {
     animation-delay: 0.8s;
 }
+
 .iconBoxContainer .iconBox:nth-child(6) {
     animation-delay: 1s;
 }
+
 .iconBoxContainer .iconBox h4 {
     color: #FFF;
     text-align: center;
@@ -740,13 +759,15 @@ section {
     line-height: normal;
     text-transform: uppercase;
 }
-.section4{
+
+.section4 {
     background: rgba(0, 0, 0, 0.50);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 57rem;
 }
+
 .section4 .container {
     position: relative;
     width: 100%;
@@ -755,33 +776,39 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.section4 .imgBox{
+
+.section4 .imgBox {
     width: 100%;
     height: 49rem;
 }
-.section4 .imgBox img{
+
+.section4 .imgBox img {
     position: absolute;
 }
+
 .ref {
     top: -3.5rem;
     width: 54rem;
     left: 0rem;
 }
-.section4 .slot-machine{
+
+.section4 .slot-machine {
     width: 20.5rem;
     position: absolute;
     top: 5rem;
     left: 32.5rem;
     z-index: 3;
 }
-.section4 .imgBox .zeus{
+
+.section4 .imgBox .zeus {
     width: 35rem;
     top: 1rem;
     left: 3rem;
 }
-.section4 .imgBox .zeus-shine{
+
+.section4 .imgBox .zeus-shine {
     width: 35rem;
     top: 1rem;
     left: 3rem;
@@ -789,21 +816,25 @@ section {
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+
 @keyframes shine-anim {
-    0%{
+    0% {
         opacity: 0;
         filter: brightness(0);
     }
-    50%{
+
+    50% {
         opacity: 1;
         filter: brightness(10) drop-shadow(0px 0px 40px #fff);
     }
-    100%{
+
+    100% {
         opacity: 0;
         filter: brightness(0);
     }
 }
-.section4 .imgBox .arena{
+
+.section4 .imgBox .arena {
     width: 10rem;
     top: 14.5rem;
     left: 7.5rem;
@@ -812,53 +843,65 @@ section {
     animation-delay: 3.2s;
     animation-iteration-count: infinite;
 }
+
 @keyframes arena {
-    0%{
+    0% {
         transform: translate(28rem, -6rem);
         opacity: 0;
     }
-    10%{
-        transform: translate(0,0);
+
+    10% {
+        transform: translate(0, 0);
         opacity: 1;
     }
-    20%{
-        transform: translate(0,0);
+
+    20% {
+        transform: translate(0, 0);
         opacity: 1;
     }
-    30%{
+
+    30% {
         transform: translateY(-1rem);
         opacity: 1;
     }
-    40%{
+
+    40% {
         transform: translateY(0rem);
         opacity: 1;
     }
-    50%{
+
+    50% {
         transform: translateY(-1rem);
         opacity: 1;
     }
-    60%{
+
+    60% {
         transform: translateY(0rem);
         opacity: 1;
     }
-    70%{
+
+    70% {
         transform: translateY(-1rem);
         opacity: 1;
     }
-    80%{
+
+    80% {
         transform: translateY(0rem);
         opacity: 1;
     }
-    90%{
+
+    90% {
         transform: translateY(-1rem);
         opacity: 1;
     }
-    100%{
+
+    100% {
         transform: translateY(0rem);
         opacity: 0;
     }
 }
-.section4 .imgBox .beast{
+
+.section4 .imgBox .beast {
     width: 8rem;
     top: 25rem;
     left: 5.5rem;
@@ -867,7 +910,8 @@ section {
     animation-delay: 3.5s;
     animation-iteration-count: infinite;
 }
-.section4 .imgBox .hammer{
+
+.section4 .imgBox .hammer {
     width: 8rem;
     top: 2rem;
     left: 47rem;
@@ -876,53 +920,65 @@ section {
     animation-delay: 2.8s;
     animation-iteration-count: infinite;
 }
+
 @keyframes hammer {
-    0%{
-        transform: translate(-6rem,6rem);
+    0% {
+        transform: translate(-6rem, 6rem);
         opacity: 0;
     }
-    10%{
-        transform: translate(0,0);
+
+    10% {
+        transform: translate(0, 0);
         opacity: 1;
     }
-    20%{
-        transform: translate(0,0);
+
+    20% {
+        transform: translate(0, 0);
         opacity: 1;
     }
-    30%{
+
+    30% {
         transform: translateY(-1rem);
         opacity: 1;
     }
-    40%{
+
+    40% {
         transform: translateY(0rem);
         opacity: 1;
     }
-    50%{
+
+    50% {
         transform: translateY(-1rem);
         opacity: 1;
     }
-    60%{
+
+    60% {
         transform: translateY(0rem);
         opacity: 1;
     }
-    70%{
+
+    70% {
         transform: translateY(-1rem);
         opacity: 1;
     }
-    80%{
+
+    80% {
         transform: translateY(0rem);
         opacity: 1;
     }
-    90%{
+
+    90% {
         transform: translateY(-1rem);
         opacity: 1;
     }
-    100%{
+
+    100% {
         transform: translateY(0rem);
         opacity: 0;
     }
 }
-.section4 .imgBox .hammer2{
+
+.section4 .imgBox .hammer2 {
     width: 7rem;
     top: 7.5rem;
     left: 53rem;
@@ -932,29 +988,34 @@ section {
     animation-iteration-count: infinite;
 }
 
-.section4 .imgBox .promo3{
+.section4 .imgBox .promo3 {
     width: 22rem;
     top: 20.5rem;
     right: 14rem;
 }
-.section4 .imgBox .cta-container{
+
+.section4 .imgBox .cta-container {
     position: absolute;
     top: 36.5rem;
     right: 19.5rem;
 }
-.section4 .paymentsCont{
+
+.section4 .paymentsCont {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 11rem;
 }
-.section4 .paymentsCont img{
+
+.section4 .paymentsCont img {
     height: 2rem;
 }
-.section4 .paymentsCont .pragmatic-play{
+
+.section4 .paymentsCont .pragmatic-play {
     height: 3rem;
 }
+
 .section1 {
     height: 50rem;
     background-size: cover;
@@ -967,11 +1028,12 @@ section {
 }
 
 body.webp-support .section1 {
-    background-image: url(./images/section1-bg-new.webp);
+    /* background-image: url(./images/section1-bg-new.webp); */
+    background-image: url(./images/Le-Bandit-LP-BG-01.png);
 }
 
 body.webp-not-support .section1 {
-    background-image: url(./images/section1-bg-new.png);
+    background-image: url(./images/Le-Bandit-LP-BG-01.png);
 }
 
 .section1 h1 {
@@ -1181,6 +1243,7 @@ body.webp-not-support .section1 {
     animation-delay: 0.2s;
     z-index: 1;
 }
+
 @keyframes scaleAnim {
     0% {
         transform: scale3d(1, 1, 1);
@@ -1218,6 +1281,7 @@ body.webp-not-support .section1 {
         -moz-animation-timing-function: linear
     }
 }
+
 .section1 .cta4 {
     left: 11.2rem;
     top: 29rem;
@@ -1423,10 +1487,12 @@ footer p a {
     nav {
         padding: 5vw 0;
     }
+
     #lottie-container {
         width: 100%;
-        height: 30vw; 
+        height: 30vw;
     }
+
     .section5 .logo {
         width: 55vw;
         margin: 5vw 0;
@@ -1535,16 +1601,19 @@ footer p a {
     .section2 {
         height: 130vw;
     }
-    .section2 .necromacer{
+
+    .section2 .necromacer {
         width: 100vw;
         bottom: -41vw;
         left: -6vw;
     }
+
     .section2 .textCont {
         width: 100%;
         align-items: center;
         margin-bottom: 8vw;
     }
+
     .section2 .textCont h1 {
         text-align: center;
         font-size: 6vw;
@@ -1552,139 +1621,174 @@ footer p a {
         position: absolute;
         top: 6vw;
     }
+
     .sliderContainer {
         width: 100vw;
         position: absolute;
         top: 82vw;
     }
-    .slider{
+
+    .slider {
         width: 80vw;
         max-width: none;
     }
-    .slide-card{
+
+    .slide-card {
         min-width: calc((100% - 6vw) / 3);
         height: 24vw;
         margin: 0 1vw;
         border-radius: 0.6rem;
     }
-    .prev, .next{
+
+    .prev,
+    .next {
         width: 4vw;
         height: 4vw;
     }
-    .prev{
+
+    .prev {
         left: 3vw;
     }
-    .next{
+
+    .next {
         right: 3vw;
     }
+
     .section2 .textCont .cta-container {
         position: absolute;
         bottom: 5vw;
     }
+
     .section3 {
         height: 125vw;
     }
+
     .section3 h1 {
         font-size: 9vw;
         padding: 1vw 3vw;
         margin-bottom: 3vw;
     }
+
     .section3 h2 {
         font-size: 5vw;
         width: 75vw;
         margin-bottom: 10vw;
     }
+
     .iconBoxContainer {
         gap: 8vw;
         flex-wrap: wrap;
     }
+
     .iconBoxContainer .iconBox {
         height: 31vw;
         width: 23vw;
     }
+
     .iconBoxContainer .iconBox:nth-child(1) img {
         height: 18vw;
     }
+
     .iconBoxContainer .iconBox:nth-child(2) img {
         height: 15vw;
     }
+
     .iconBoxContainer .iconBox:nth-child(3) img {
         height: 17vw;
     }
+
     .iconBoxContainer .iconBox:nth-child(4) img {
         height: 18vw;
     }
+
     .iconBoxContainer .iconBox:nth-child(5) img {
         height: 17vw;
     }
+
     .iconBoxContainer .iconBox:nth-child(6) img {
         height: 13vw;
     }
-    .iconBoxContainer .iconBox h4{
+
+    .iconBoxContainer .iconBox h4 {
         font-size: 3vw;
     }
-    .section4{
+
+    .section4 {
         height: 210vw;
     }
+
     .section4 .imgBox {
         width: 100%;
         height: 100vw;
     }
+
     .section4 .slot-machine {
         width: 40vw;
         position: absolute;
         top: 13vw;
         left: 55vw;
     }
+
     .section4 .imgBox .zeus {
         width: 70vw;
         top: 4vw;
         left: -4vw;
     }
+
     .section4 .imgBox .zeus-shine {
         width: 70vw;
         top: 4vw;
         left: -4vw;
     }
+
     .section4 .imgBox .arena {
         width: 20vw;
         top: 31vw;
         left: 5.5vw;
     }
+
     .section4 .imgBox .beast {
         width: 16vw;
         top: 52vw;
         left: 1vw;
     }
+
     .section4 .imgBox .hammer {
         width: 17vw;
         top: 6vw;
         left: 82vw;
     }
+
     .section4 .imgBox .hammer2 {
         width: 14vw;
         top: 31vw;
         left: 87vw;
     }
+
     .section4 .imgBox .promo3 {
         width: 67vw;
         top: 99vw;
         right: 16vw;
     }
+
     .section4 .imgBox .cta-container {
         position: absolute;
         top: 145vw;
         right: 28vw;
     }
-    .section4 .paymentsCont{
+
+    .section4 .paymentsCont {
         height: 40vw;
     }
+
     .section4 .paymentsCont .pragmatic-play {
         height: 10vw;
     }
+
     .section4 .paymentsCont img {
         height: 6vw;
     }
+
     .section4 .paymentsCont {
         justify-content: center;
         align-items: center;
@@ -1694,17 +1798,19 @@ footer p a {
         height: 23vw;
         margin-bottom: 17vw;
     }
+
     .section1 {
         height: 190vw;
         background-position: center;
     }
 
     body.webp-support .section1 {
-        background-image: url(./images/section1-bg-new-mobile.webp);
+        /* background-image: url(./images/section1-bg-new-mobile.webp); */
+        background-image: url(./images/Le-Bandit-LP-BG-01-Mobil.png);
     }
 
     body.webp-not-support .section1 {
-        background-image: url(./images/section1-bg-new-mobile.png);
+        background-image: url(./images/Le-Bandit-LP-BG-01-Mobil.png);
     }
 
     .section1 h1 {
@@ -1867,6 +1973,15 @@ footer p a {
         width: 80vw;
         height: 108vw;
         position: relative;
+        overflow: hidden;
+    }
+
+    .modal::before {
+        content: "";
+        display: block;
+        width: 50vw;
+        height: 50vw;
+        position: absolute;
     }
 
     .modal .modal-image {
@@ -1874,6 +1989,31 @@ footer p a {
         top: -15vw;
         right: -6vw;
         width: 93vw;
+    }
+
+    .modal .modal-char {
+        position: absolute;
+        top: 10vw;
+        right: -6vw;
+        width: 85vw;
+    }
+
+    .modal .modal-logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -70%);
+        width: 30vw;
+        filter: drop-shadow(0px 0px 3px black) drop-shadow(0px 0px 3px black);
+    }
+
+    .modal .modal-offer {
+        width: 50vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-48%, 15%);
+        filter: drop-shadow(0px 0px 3px black) drop-shadow(0px 0px 3px black);
     }
 
     .modal .cta-container {
