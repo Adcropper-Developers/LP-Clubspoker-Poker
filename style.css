@@ -466,6 +466,16 @@ section {
     color: #E8E8E8;
 }
 
+.cta-container .white-print {
+    position: absolute;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    text-align: center;
+    bottom: -1.5rem;
+    white-space: nowrap;
+}
+
 .section2 {
     background: rgba(0, 0, 0, 0.50);
     display: flex;
@@ -795,10 +805,10 @@ section {
 }
 
 .section4 .slot-machine {
-    width: 20.5rem;
+    width: 35.5rem;
     position: absolute;
     top: 5rem;
-    left: 32.5rem;
+    left: 22.5rem;
     z-index: 3;
 }
 
@@ -989,15 +999,15 @@ section {
 }
 
 .section4 .imgBox .promo3 {
-    width: 22rem;
-    top: 20.5rem;
-    right: 14rem;
+    width: 27rem;
+    top: 16.5rem;
+    right: 10rem;
 }
 
 .section4 .imgBox .cta-container {
     position: absolute;
-    top: 36.5rem;
-    right: 19.5rem;
+    top: 36rem;
+    right: 17.3rem;
 }
 
 .section4 .paymentsCont {
@@ -1723,10 +1733,10 @@ footer p a {
     }
 
     .section4 .slot-machine {
-        width: 40vw;
+        width: 77vw;
         position: absolute;
-        top: 13vw;
-        left: 55vw;
+        top: 8vw;
+        left: 35vw;
     }
 
     .section4 .imgBox .zeus {
@@ -1766,9 +1776,9 @@ footer p a {
     }
 
     .section4 .imgBox .promo3 {
-        width: 67vw;
-        top: 99vw;
-        right: 16vw;
+        width: 73vw;
+        top: 96vw;
+        right: 13vw;
     }
 
     .section4 .imgBox .cta-container {

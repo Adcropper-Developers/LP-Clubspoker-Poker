@@ -235,3 +235,10 @@ function stopAutoSlide() {
 
 // İlk otomatik kaydırmayı başlat
 startAutoSlide();
+
+const copyrights = Array.from(document.querySelectorAll('.copyright'));
+document.addEventListener('DOMContentLoaded', () => {
+  copyrights.forEach((item) => {
+    item.innerHTML = `${new Date().getFullYear()}`;
+  });
+});
