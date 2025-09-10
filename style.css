@@ -1017,7 +1017,7 @@ section {
 }
 
 .section1 {
-    height: 50rem;
+    height: 60rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 0rem;
@@ -1028,12 +1028,11 @@ section {
 }
 
 body.webp-support .section1 {
-    /* background-image: url(./images/section1-bg-new.webp); */
-    background-image: url(./images/Le-Bandit-LP-BG-01.png);
+    background-image: url(./images/Le-Bandit-LP-BG.webp);
 }
 
 body.webp-not-support .section1 {
-    background-image: url(./images/Le-Bandit-LP-BG-01.png);
+    background-image: url(./images/Le-Bandit-LP-BG.jpg);
 }
 
 .section1 h1 {
@@ -1213,14 +1212,14 @@ body.webp-not-support .section1 {
 }
 
 .section1 .frame1 {
-    top: 5rem;
+    top: 8rem;
     width: 27rem;
     left: 3rem;
     z-index: 1;
 }
 
 .section1 .frame2 {
-    top: 3rem;
+    top: 6rem;
     width: 27rem;
     left: 3rem;
     z-index: 1;
@@ -1233,7 +1232,7 @@ body.webp-not-support .section1 {
 
 .section1 .frame3 {
     left: 0rem;
-    top: 20rem;
+    top: 25rem;
     width: 34rem;
     animation-name: scaleAnim;
     animation-duration: 2s;
@@ -1284,7 +1283,7 @@ body.webp-not-support .section1 {
 
 .section1 .cta4 {
     left: 11.2rem;
-    top: 29rem;
+    top: 34rem;
     z-index: 1;
 }
 
@@ -1294,6 +1293,7 @@ body.webp-not-support .section1 {
     top: 2rem;
     position: absolute;
     z-index: 1;
+    filter: drop-shadow(4px 4px 4px #891807) drop-shadow(4px 4px 4px #891807);
 }
 
 .section1 .birds {
@@ -1805,12 +1805,11 @@ footer p a {
     }
 
     body.webp-support .section1 {
-        /* background-image: url(./images/section1-bg-new-mobile.webp); */
-        background-image: url(./images/Le-Bandit-LP-BG-01-Mobil.png);
+        background-image: url(./images/Le-Bandit-LP-BG-Mobil.webp);
     }
 
     body.webp-not-support .section1 {
-        background-image: url(./images/Le-Bandit-LP-BG-01-Mobil.png);
+        background-image: url(./images/Le-Bandit-LP-BG-Mobil.jpg);
     }
 
     .section1 h1 {
@@ -1825,9 +1824,9 @@ footer p a {
     }
 
     .section1 .giants-and-sheep-anim {
-        width: 79vw;
-        right: 10vw;
-        top: 1vw;
+        width: 59vw;
+        right: 22vw;
+        top: 0vw;
     }
 
     /* .section1 .birds{
@@ -1840,20 +1839,20 @@ footer p a {
     }
 
     .section1 .frame2 {
-        top: 81vw;
+        top: 60vw;
         width: 59vw;
         left: 19vw;
     }
 
     .section1 .frame3 {
         left: 6vw;
-        top: 118vw;
+        top: 98vw;
         width: 85vw;
     }
 
     .section1 .cta4 {
         left: 28vw;
-        top: 140vw;
+        top: 117vw;
     }
 
     footer {
