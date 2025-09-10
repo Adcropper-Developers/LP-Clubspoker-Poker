@@ -1800,7 +1800,7 @@ footer p a {
     }
 
     .section1 {
-        height: 190vw;
+        height: 198vw;
         background-position: center;
     }
 
@@ -1826,7 +1826,7 @@ footer p a {
     .section1 .giants-and-sheep-anim {
         width: 59vw;
         right: 22vw;
-        top: 0vw;
+        top: -3vw;
     }
 
     /* .section1 .birds{
@@ -1839,20 +1839,20 @@ footer p a {
     }
 
     .section1 .frame2 {
-        top: 60vw;
+        top: 53vw;
         width: 59vw;
         left: 19vw;
     }
 
     .section1 .frame3 {
         left: 6vw;
-        top: 98vw;
+        top: 91vw;
         width: 85vw;
     }
 
     .section1 .cta4 {
         left: 28vw;
-        top: 117vw;
+        top: 110vw;
     }
 
     footer {
